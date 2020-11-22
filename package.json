@@ -1,0 +1,25 @@
+{
+  "name": "graphql_first_attempt",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": "git+https://github.com/misiekhardcore/graphql_first_attempt.git",
+  "author": "misiekhardcore <misiekhardcore@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misiekhardcore/graphql_first_attempt/issues"
+  },
+  "homepage": "https://github.com/misiekhardcore/graphql_first_attempt#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
